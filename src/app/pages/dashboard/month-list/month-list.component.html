@@ -1,0 +1,150 @@
+<ul class="list-none p-2 m-0">
+    <li class="pb-2 border-bottom-1 surface-border">
+        <div class="surface-card p-4 shadow-2 border-round">
+            <div class="mb-3 flex align-items-center justify-content-between">
+                <span class="text-xl font-medium text-900">Janvier</span>
+                <button pButton type="button" label="Transmis" icon="pi pi-check"
+                    class="p-button-sm p-button-success p-2" [disabled]="true"></button>
+            </div>
+            <div class="grid grid-nogutter ">
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-xl col-jan p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S01</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full mt-0" severity="success" value="Validée"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-jan  p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S02</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="success" value="Validée"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2">
+                    <div class="border-round-sm col-jan  p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S03</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="success" value="Validée"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-jan  p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S04</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="success" value="Validée"></p-tag>
+                    </div>
+                </div>
+            </div>
+            <p-progressBar [value]="100" class="m-1" color="teal" [showValue]="true"></p-progressBar>
+        </div>
+    </li>
+
+    <li class="py-2 border-bottom-1 surface-border">
+        <div class="surface-card p-4 shadow-2 border-round">
+            <div class="mb-3 flex align-items-center justify-content-between">
+                <span class="text-xl font-medium text-900">Février</span>
+                <button pButton type="button" label="En attente" class="p-button-sm p-button-info p-2"
+                    [disabled]="true"></button>
+            </div>
+            <div class="grid grid-nogutter ">
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-feb p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S05</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="success" value="Validée"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-feb p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S06</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="warning" value="En attente"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-feb p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S07</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full" severity="info" value="En cours"></p-tag>
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-feb p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S08</p>
+                        </div>
+                        <p-tag styleClass="h-1rem w-full surface-600" value="Prévue"></p-tag>
+                    </div>
+                </div>
+            </div>
+            <p-progressBar [value]="25" class="m-1" color="teal" [showValue]="true"></p-progressBar>
+        </div>
+    </li>
+
+    <li class="py-2 border-bottom-1 surface-border">
+        <div class="surface-card p-4 shadow-2 border-round">
+            <div class="mb-3 flex align-items-center justify-content-between">
+                <span class="text-xl font-medium text-900">Mars</span>
+                <!-- <button pButton type="button" label="Prévu" class="p-button-sm surface-800 p-2"
+                    [disabled]="true"></button> -->
+            </div>
+            <div class="grid grid-nogutter ">
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-mar p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S09</p>
+                        </div>
+                        <!-- <p-tag styleClass="h-1rem w-full surface-600" value="Prévue"></p-tag> -->
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-mar p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S10</p>
+                        </div>
+                        <!-- <p-tag styleClass="h-1rem w-full surface-600" value="Prévue"></p-tag> -->
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-mar p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S11</p>
+                        </div>
+                        <!-- <p-tag styleClass="h-1rem w-full surface-600" value="Prévue"></p-tag> -->
+                    </div>
+                </div>
+
+                <div class="sm:col-3 md:col-6 xl:col-3 p-2 ">
+                    <div class="border-round-sm col-mar p-2">
+                        <div class="text-center  ">
+                            <p class="vertical-align-middle text-100 text-3xl font-bold">S12</p>
+                        </div>
+                        <!-- <p-tag styleClass="h-1rem w-full surface-600" value="Prévue"></p-tag> -->
+                    </div>
+                </div>
+            </div>
+            <p-progressBar [value]="0" class="m-1" color="teal" [showValue]="true"></p-progressBar>
+        </div>
+    </li>
+
+
+</ul>

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeflex/primeflex.css";
+@import "assets/css/app/layout.scss";
+@import "../node_modules/prismjs/themes/prism-coy.css";
+@import "assets/css/demo/flags.css";
+
+html,
+body {
+    font-size: 0.9em;
+}

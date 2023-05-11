@@ -1,0 +1,9 @@
+:host ::ng-deep .p-treeselect,
+:host ::ng-deep .p-dropdown,
+:host ::ng-deep .p-inputtext {
+    width: 100%;
+}
+
+:host ::ng-deep .p-toolbar {
+    padding: 0px 20px;
+}

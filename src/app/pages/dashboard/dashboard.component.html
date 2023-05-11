@@ -1,0 +1,21 @@
+<p-toolbar>
+    <div class="p-toolbar-group-start">
+        <h3>Dashboard : Gestion assistée des heures</h3>
+    </div>
+
+    <div class="p-toolbar-group-end">
+
+        <p-treeSelect [(ngModel)]="selectedNode" [options]="nodes" placeholder="Select Item" class="m-4 w-100"
+            style="width:200px" [filter]="true"></p-treeSelect>
+        <p-dropdown [options]="years" [(ngModel)]="selected_year" optionLabel="name"></p-dropdown>
+    </div>
+</p-toolbar>
+<div class="grid  grid-nogutter">
+    <div class="col-12 sm:col-12 md:col-5 col-nogutter">
+        <app-month-list></app-month-list>
+    </div>
+    <div class=" col-7 hidden md:inline col-nogutter">
+        <app-month-detail></app-month-detail>
+        <app-week-detail></app-week-detail>
+    </div>
+</div>

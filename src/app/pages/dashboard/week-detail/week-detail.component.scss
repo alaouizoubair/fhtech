@@ -1,0 +1,35 @@
+:host ::ng-deep .p-toolbar {
+    padding: 0px 20px;
+}
+
+//Set the width of the elements of the tabview
+:host ::ng-deep .p-tabview-nav {
+    display: flex;
+}
+
+//the li's will now always fill up the size of the ul's */
+:host ::ng-deep .p-tabview-nav li {
+    flex: 1;
+    text-align: center;
+}
+
+:host ::ng-deep .p-tabview-title {
+    width: 100%;
+}
+
+//Set the padding of the elements inside a tabview
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 15px;
+}
+
+:host ::ng-deep .p-treeselect,
+:host ::ng-deep .p-dropdown,
+:host ::ng-deep .p-inputtext,
+:host ::ng-deep .p-inputnumber {
+    width: 100%;
+}
+
+:host ::ng-deep .complete .p-tabview-title,
+:host ::ng-deep .complete .p-tabview-left-icon {
+    color: green;
+}

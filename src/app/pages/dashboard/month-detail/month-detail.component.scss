@@ -1,0 +1,28 @@
+:host ::ng-deep .p-toolbar {
+    padding: 0px 20px;
+}
+
+:host ::ng-deep .p-treeselect,
+:host ::ng-deep .p-dropdown,
+:host ::ng-deep .p-inputtext,
+:host ::ng-deep .p-inputnumber {
+    width: 100%;
+}
+
+:host ::ng-deep .p-toolbar {
+    padding: 0px 20px;
+}
+
+
+
+:host ::ng-deep .p-treeselect,
+:host ::ng-deep .p-dropdown,
+:host ::ng-deep .p-inputtext,
+:host ::ng-deep .p-inputnumber {
+    width: 100%;
+}
+
+:host ::ng-deep .complete .p-tabview-title,
+:host ::ng-deep .complete .p-tabview-left-icon {
+    color: green;
+}
